@@ -11,7 +11,7 @@ import com.sena.biblioteca.ui.sections.InicioSection
 
 fun MainScreen(){
     Surface(modifier = Modifier.fillMaxSize(),
-        color = Color.White){
+        color = Color(246, 246, 254)){
         InicioSection()
     }
 }
