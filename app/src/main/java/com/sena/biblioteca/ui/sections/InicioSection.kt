@@ -21,6 +21,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.sena.biblioteca.R
+import com.sena.biblioteca.ui.components.ButtonComponent
 
 @Composable
 fun InicioSection(){
@@ -60,5 +61,11 @@ fun InicioSection(){
                 fontWeight = FontWeight.Bold
             )
         }
+        Spacer(modifier = Modifier.height(40.dp))
+        ButtonComponent(
+            icono = R.drawable.libro,
+            texto = "Ver Libros",
+            colorFondo = Color(87, 69, 206)
+        )
     }
 }
